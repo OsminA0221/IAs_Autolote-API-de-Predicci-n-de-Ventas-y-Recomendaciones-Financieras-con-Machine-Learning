@@ -1,0 +1,94 @@
+# 🔒 Entorno virtual
+
+.venv/
+venv/
+env/
+
+# 🧠 Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Distribución / build
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 📄 Archivos de configuración local
+
+.env
+.env.*
+*.env
+
+# 🔐 Credenciales (MUY IMPORTANTE)
+
+*.key
+*.pem
+*.crt
+secrets.json
+
+# 🗄️ Bases de datos locales
+
+*.sqlite3
+*.db
+
+# 📊 Archivos de datos (ML)
+
+data/
+datasets/
+*.csv
+*.xlsx
+*.parquet
+
+# 📈 Modelos entrenados (si los generas después)
+
+*.pkl
+*.joblib
+models/
+trained_models/
+
+# 📝 Logs
+
+*.log
+logs/
+
+# 🧪 Tests temporales / debugging
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 🧾 Archivos innecesarios del proyecto
+
+before.txt
+Explicacion.txt
+*.tmp
+*.bak
+
+# 🖥️ Sistema operativo
+
+.DS_Store
+Thumbs.db
+
+# 🧰 IDEs / Editores
+
+.vscode/
+.idea/
+
+# 🐍 Jupyter (si llegas a usar)
+
+.ipynb_checkpoints/
+
+# 📦 Node (por si conectas React)
+
+node_modules/
+
+# 🔄 Archivos temporales generales
+
+*.swp
+*.swo
+*~
